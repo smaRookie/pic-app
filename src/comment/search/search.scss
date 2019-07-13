@@ -1,0 +1,23 @@
+.search-wrap {
+  position: relative;
+  .m-icon {
+    color: red!important;
+    font-size: 20PX!important;
+    vertical-align: middle;
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+  }
+  .search-con {
+    width: 90%;
+    margin: 20px auto;
+    height: 60px;
+    display: block;
+    outline: none;
+    border: 1PX solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 30PX;
+  }
+}
